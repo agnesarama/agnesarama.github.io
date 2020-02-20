@@ -15,12 +15,10 @@ tfoot {
 }
 
 table { /*Tabelle nach rechts und unten verschieben*/
-    float: left;
     margin-left: 450px;
 }
 
 h3 { /*Titel "Rezept Pite" nach rechts und unten verschieben*/
-    float: left;
     margin-left: 450px;
     margin-top: 50px;
 }
