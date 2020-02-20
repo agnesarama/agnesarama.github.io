@@ -1,3 +1,14 @@
 h1 { 
     color: rgb(18, 178, 241); 
 }
+
+table, /*Rezept für Gericht "Pite"*/
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
