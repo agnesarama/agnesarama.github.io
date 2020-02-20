@@ -1,8 +1,9 @@
 h1 { 
-    color: rgb(18, 178, 241); 
+    color: rgb(18, 178, 241); /*Titelfarbe blau*/
+    text-align: center; /*Titelfarbe blau*/
 }
 
-table, /*Rezept für Gericht "Pite"*/
+table, /*Tabelle für Rezept für Gericht "Pite"*/
 td {
     border: 1px solid #333;
 }
@@ -11,4 +12,19 @@ thead,
 tfoot {
     background-color: #333;
     color: #fff;
+}
+
+table { /*Tabelle nach rechts und unten verschieben*/
+    float: left;
+    margin-left: 450px;
+}
+
+h3 { /*Titel "Rezept Pite" nach rechts und unten verschieben*/
+    float: left;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+
+*{
+    background-color: moccasin;
 }
