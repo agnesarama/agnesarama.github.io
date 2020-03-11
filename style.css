@@ -10,12 +10,12 @@ h2 { /*Textformatierung - Untertitel*/
 
 table, /*Tabellenformatierung - Tabelle für Rezept für Gericht "Pite"*/
 td {
-    border: 1px solid #333; /*Border - Grenze/Umrandung durchgehende Linie und schwarz*/
-    margin-right: 500px; /*Tabelle nach rechts und unten verschieben*/
+    border: 1px solid #333; /*Border - Umrandung durchgehende Linie und schwarz*/
+    margin-right: 500px; /*Tabelle nach links verschieben*/
 }
 
 thead,
-tfoot {
+tfoot { /*Tabelle - Färbung*/
     background-color: #333;
     color: #fff;
 }
@@ -23,10 +23,10 @@ tfoot {
 h3 { /*Textformatierung - Titel (Rezept)*/
     color: lightskyblue;/*Titelfarbe blau*/
     text-align: center; /*Titel mittig*/
-    box-sizing: content-box; /*Themen in Boxen abgegrezt*/
-    width: 94%; /*Breite in Prozentangabe*/
+    box-sizing: content-box; /*Themen in Boxen abgrenzen*/
+    width: 94%; /*Breite*/
     padding: 30px;/*Innenabstand*/
-    border: ridge burlywood 10px; /*Rand in Pixel, 3D-Effekt, farbig*/
+    border: ridge burlywood 10px; /*Rand, 3D-Effekt, farbig*/
     float: none; /*Element wird nicht verschoben*/
 }
 
