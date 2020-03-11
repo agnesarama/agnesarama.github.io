@@ -1,6 +1,6 @@
 h1 { 
     color: rgb(18, 178, 241); /*Titelfarbe blau*/
-    text-align: center; /*Titelfarbe blau*/
+    text-align: center; /*Titel in die Mitte*/
 }
 
 table, /*Tabelle für Rezept für Gericht "Pite"*/
@@ -18,10 +18,10 @@ table { /*Tabelle nach rechts und unten verschieben*/
     margin-left: 450px;
 }
 
-h3 { /*Titel "Rezept Pite" nach rechts und unten verschieben*/
-    margin-left: 450px;
-    margin-top: 50px;
+h3 { 
+    text-align: center; /*Titel in die Mitte*/
 }
+
 
 *{
     background-color: moccasin;
