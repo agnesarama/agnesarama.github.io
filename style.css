@@ -22,9 +22,19 @@ tfoot {
 
 h3 { /*Textformatierung - Titel (Rezept)*/
     color: lightskyblue;/*Titelfarbe blau*/
-    text-align: left; /*Titel nach links*/
+    text-align: center; /*Titel mittig*/
+    box-sizing: content-box; /*Themen in Boxen abgegrezt*/
+    width: 94%; /*Breite in Prozentangabe*/
+    padding: 30px;/*Innenabstand*/
+    border: ridge burlywood 10px; /*Rand in Pixel, 3D-Effekt, farbig*/
+    float: none; /*Element wird nicht verschoben*/
 }
 
 div nav {
     text-align: center; /*Text in die Mitte*/
 }
+
+p {
+    text-align: center; /*Text mittig*/
+}
+ 
