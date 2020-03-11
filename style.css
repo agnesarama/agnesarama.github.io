@@ -1,23 +1,17 @@
 h1 { /*Textformatierung - Titel (Kosovo)*/
-    color: rgb(18, 178, 241); /*Titelfarbe blau*/
+    color: darkblue; /*Titelfarbe blau*/
     text-align: center; /*Titel in die Mitte*/
 }
 
-
+h2 { /*Textformatierung - Untertitel*/
+    color: mediumblue; /*Titelfarbe blau*/
+    text-align: center; /*Untertitel in die Mitte*/
+}
 
 table, /*Tabellenformatierung - Tabelle für Rezept für Gericht "Pite"*/
 td {
     border: 1px solid #333; /*Border - Grenze/Umrandung durchgehende Linie und schwarz*/
     margin-left: 450px; /*Tabelle nach rechts und unten verschieben*/
-    <style>
-    div {
-      background-color: lightgrey;
-      width: 300px;
-      border: 15px solid green;
-      padding: 50px;
-      margin: 20px;
-    }
-    </style>
 }
 
 thead,
@@ -27,9 +21,13 @@ tfoot {
 }
 
 h3 { /*Textformatierung - Titel (Rezept)*/
-    text-align: center; /*Titel in die Mitte*/
+    color: lightskyblue;/*Titelfarbe blau*/
+    text-align: left; /*Titel nach links*/
 }
 
-*{ /*Hintergrundfarbe*/
-    background-color: moccasin;
+div nav {
+    text-align: center; /*Text in die Mitte*/
 }
+
+
+
