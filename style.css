@@ -12,6 +12,8 @@ table, /*Tabellenformatierung - Tabelle für Rezept für Gericht "Pite"*/
 td {
     border: 1px solid #333; /*Border - Umrandung durchgehende Linie und schwarz*/
     margin-right: 500px; /*Tabelle nach links verschieben*/
+    grid-column: (1/2); /*Das Objekt in der ersten Box der Tabelle=links (Spalte 1) --> klappt noch nicht*/
+    grid-row: (1/1); /*Das Objekt in der ersten Box der Tabelle=links (Reihe 1) --> klappt noch nicht*/
 }
 
 thead,
@@ -45,6 +47,12 @@ img { /*Bild beim Rezept Pite mittig*/
     margin-right: auto;
 }
 
-.Rezept { /*Damit der Text rechts von der Tabelle ist*/
-    float: right;
+.Rezept { /*Damit der Text rechts von der Tabelle ist --> klappt noch nicht*/
+    box-sizing: content-box;
+    grid-column: (2/2); /*Das Objekt in der zweiten Box der Tabelle=rechts (Spalte 2) --> klappt noch nicht*/
+    grid-row: (1/1); /*Das Objekt in der zweiten Box der Tabelle=rechts (Reihe 2) --> klappt noch nicht*/
+}
+
+.gridcontainer {
+    display:grid; 
 }
