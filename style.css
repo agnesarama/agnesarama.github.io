@@ -47,3 +47,7 @@ img { /*Bild beim Rezept Pite mittig*/
     margin-left: auto;
     margin-right: auto;
 }
+
+.Rezept { /*Damit der Text rechts von der Tabelle ist*/
+    float: right;
+}
