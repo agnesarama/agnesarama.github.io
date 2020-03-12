@@ -11,7 +11,7 @@ h2 { /*Textformatierung - Untertitel*/
 table, /*Tabellenformatierung - Tabelle für Rezept für Gericht "Pite"*/
 td {
     border: 1px solid #333; /*Border - Umrandung durchgehende Linie und schwarz*/
-    margin-right: 500px; /*Tabelle nach links verschieben*/
+    margin-right: 500px; /*Leerraum zwischen Element und Nebenobjekt/-element*/
     grid-column: (1/2); /*Das Objekt in der ersten Box der Tabelle=links (Spalte 1) --> klappt noch nicht*/
     grid-row: (1/1); /*Das Objekt in der ersten Box der Tabelle=links (Reihe 1) --> klappt noch nicht*/
 }
