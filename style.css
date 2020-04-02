@@ -56,3 +56,11 @@ img { /*Bild beim Rezept Pite mittig*/
 .gridcontainer {
     display:grid; 
 }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    /*alle Bilder werden auf der Seite zentriert und nehmen 70% des Bildschirms ein*/
+}
