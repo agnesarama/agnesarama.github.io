@@ -45,6 +45,7 @@ img { /*Bild beim Rezept Pite mittig*/
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 70%;  /*alle Bilder werden auf der Seite zentriert und nehmen 70% des Bildschirms ein*/
 }
 
 .Rezept { /*Damit der Text rechts von der Tabelle ist --> klappt noch nicht*/
@@ -57,10 +58,3 @@ img { /*Bild beim Rezept Pite mittig*/
     display:grid; 
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    /*alle Bilder werden auf der Seite zentriert und nehmen 70% des Bildschirms ein*/
-}
