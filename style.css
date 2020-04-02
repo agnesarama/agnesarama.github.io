@@ -26,7 +26,7 @@ h3 { /*Textformatierung - Titel (Rezept)*/
     color: lightskyblue;/*Titelfarbe blau*/
     text-align: center; /*Titel mittig*/
     box-sizing: content-box; /*Themen in Boxen abgrenzen*/
-    width: 88%; /*Breite*/
+    width: 88% padding: 30px; /*Breite*/
     padding: 30px;/*Innenabstand*/
     border: ridge burlywood 10px; /*Rand, 3D-Effekt, farbig*/
     float: none; /*Element wird nicht verschoben*/
