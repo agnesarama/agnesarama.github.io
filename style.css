@@ -59,7 +59,7 @@ img { /*Bild beim Rezept Pite mittig*/
 }
 
 
-
+/*extras*/
 
 /* For mobile phones: */
 [class*="col-"] {
@@ -109,3 +109,5 @@ img { /*Bild beim Rezept Pite mittig*/
     .topmenu li { 
         width: 32%;  
     }
+
+/*extras*/
