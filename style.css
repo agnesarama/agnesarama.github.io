@@ -109,7 +109,3 @@ img { /*Bild beim Rezept Pite mittig*/
     .topmenu li { 
         width: 32%;  
     }
-}
-a.Button:hover {  /*Change the color of the Buttons on hover*/
-    background-color: rgb(0, 240, 0);      
-  }
