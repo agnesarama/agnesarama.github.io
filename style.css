@@ -94,3 +94,17 @@ img { /*Bild beim Rezept Pite mittig*/
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
   }
+
+  /** Zuerst kleine Monitore **/
+.topmenu li {  
+    width: 48%; 
+    box-sizing: border-box; 
+    text-align: center;
+}
+
+/** Größere Monitore **/
+@media only screen and (min-width: 600px) {
+    .topmenu li { 
+        width: 32%;  
+    }
+}
